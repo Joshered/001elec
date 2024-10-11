@@ -1,1 +1,61 @@
-git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculatrice</title>
+    <link rel="stylesheet" href="bstrap\bstrap\css\bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="bg-secondary" >
+            <img src="PHYICAL.png" alt=""style="width:75px;">
+        </div>
+    </header>
+    <section>
+        <div class="pt-5" >
+            <div class="container w-50  bg-secondary bg-opacity-25" style="border: 1px solid black;" style="">
+                    <!--tableau-->
+                    <div class="mt-2">
+                        <textarea name="" id="" class="w-100" rows="4" disabled><?php echo "$n"?></textarea>
+                    </div>
+                    <!--touche-->
+                    <form action="" method="post">
+                    <div class="mt-2 w-100">
+                        <form action="" method="post">
+                            <div class="d-nowrap py-2 px-1 row ">
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="b7" name="b7">7</button>
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="b8" name="b8">8</button>
+                                <button class="btn btn-dark border  col-sm-2" id="b9" name="b9">9</button>
+                                <button class="btn btn-warning ms-3 col-sm-2" id="del" name="del">DEL</button>
+                                <button class="btn btn-warning mx-2 col-sm-2" id="ac" name="ac">AC</button>
+                            </div>
+                            <div class="d-nowrap py-2 px-1 row">
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="b4" name="b4">4</button>
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="b5" name="b5">5</button>
+                                <button class="btn btn-dark border  col-sm-2" id="b6" name="b6">6</button>
+                                <button class="btn btn-secondary ms-3 col-sm-2" id="bx" name="bx">x</button>
+                                <button class="btn btn-secondary mx-2 col-sm-2" id="bd" name="bd">/</button>
+                            </div>
+                            <div class="d-nowrap py-2 px-1 row">
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="b1" name="b1">1</button>
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="b2" name="b2">2</button>
+                                <button class="btn btn-dark border  col-sm-2" id="b3" name="b3">3</button>
+                                <button class="btn btn-secondary ms-3 col-sm-2" id="bp" name="bp">+</button>
+                                <button class="btn btn-secondary mx-2 col-sm-2" id="bm" name="bm">-</button>
+                            </div>
+                            <div class="d-nowrap py-2 px-1 row">
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="bpnt" name="bpnt">.</button>
+                                <button class="btn btn-dark border mx-1 col-sm-2" id="b0" name="b0">0</button>
+                                <button class="btn btn-dark border  col-sm-2" id="be" name="be">=</button>
+                                
+                            </div>
+                        </form>
+                    </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
