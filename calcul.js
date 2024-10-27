@@ -1,4 +1,6 @@
+var af=document.getElementById("aff").value;
 function btn(){
-    var text="salut yerd";
-    document.getElementById("aff").value = "Vous testez unscript JS";
+    aff+="0";
+    aff.getElementById("aff").value="9";
+    
 }
